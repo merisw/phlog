@@ -10,6 +10,8 @@ class PicsController < ApplicationController
 
   def create
     @pic = Pic.new(params[:pic])
+    @pic.asset = params[:pic][:asset]
+    @pic.save
     if @pic.save
       flash[:notice] = "Picture has been added."
       redirect_to "/"

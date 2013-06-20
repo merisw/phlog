@@ -30,6 +30,8 @@ group :production do
 end
 
 gem 'paperclip', '2.7'
+gem 'resque', :require => "resque/server"
+gem 'aws-sdk', '~> 1.5.7'
 
 gem 'jquery-rails'
 
