@@ -29,6 +29,8 @@ group :production do
   gem 'pg'
 end
 
+gem 'paperclip', '2.7'
+
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password

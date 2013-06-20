@@ -1,0 +1,12 @@
+<h2>Pictures!</h2>
+<%= link_to "Add Picture", new_pic_path %>
+
+<% @pics.each do |pic| %>
+  <ul>
+    <li>
+      <%= pic.title %><br>
+      <%= pic.description %>
+
+    </li>
+  </ul>
+<% end %>

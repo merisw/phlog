@@ -1,4 +1,9 @@
 Phlog::Application.routes.draw do
+  resources :pics
+
+  root to: "pics#index"
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
