@@ -1,6 +1,6 @@
 <h2>Add a new picture</h2>
 
-<%= form_for @pic, :html => { multipart: true } do |f| %>
+<%= form_for @pic, html: { multipart: true } do |f| %>
   <p>
     <%= f.label :title %><br>
     <%= f.text_field :title %>

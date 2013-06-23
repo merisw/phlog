@@ -10,8 +10,7 @@ class PicsController < ApplicationController
 
   def create
     @pic = Pic.new(params[:pic])
-    @pic.asset = params[:pic][:asset]
-    @pic.save
+
     if @pic.save
       flash[:notice] = "Picture has been added."
       redirect_to "/"
@@ -20,5 +19,12 @@ class PicsController < ApplicationController
       render action: "new"
     end
   end
+
+  def destroy
+    @pic.destroy
+    flash[:notice] = "Picture has been deleted."
+    redirect_to "/"
+  end
+
 
 end
