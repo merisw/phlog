@@ -23,6 +23,7 @@ group :test, :developemnt do
   gem 'pry-rails'
   gem 'pry-doc'
   gem 'pry-debugger'
+  gem 'sqlite3'
 end
 
 gem 'pg'
