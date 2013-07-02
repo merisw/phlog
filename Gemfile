@@ -32,6 +32,7 @@ gem 'paperclip', '2.7'
 gem 'delayed_paperclip'
 gem 'delayed_job_active_record'
 gem 'aws-sdk', '~> 1.5.7'
+gem 'foreman'
 
 gem 'jquery-rails'
 
