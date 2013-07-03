@@ -12,6 +12,7 @@ To Setup in your Development Environment:
 4. export SECRET_TOKEN='[your_secret_token]'
 
 Once you have an Amazon S3 account and bucket set up:
+
 5. export AWS_PHLOG_BUCKET='[bucket_name]'
 6. export AWS_ACCESS_KEY_ID='[your_access_key_id]'
 7. export AWS_SECRET_ACCESS_KEY='[your_secret_access_key]'
