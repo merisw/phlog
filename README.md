@@ -1,8 +1,11 @@
 Phlog!
+======
 
 This is a photo blog where you can upload your pictures with a title and description and store your photos in an Amazon S3 bucket.
 
 To Setup in your Development Environment:
+-----------------------------------------
+
 1. git clone https://github.com/merisw/phlog.git
 2. bundle install
 3. rake secret
@@ -14,4 +17,5 @@ Once you have an Amazon S3 account and bucket set up:
 7. export AWS_SECRET_ACCESS_KEY='[your_secret_access_key]'
 
 To see the production version, visit http://aqueous-scrubland-7534.herokuapp.com/
+
 
